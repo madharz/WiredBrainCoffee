@@ -23,8 +23,7 @@
             <ColumnDefinition/>
             <ColumnDefinition Width="Auto"/>
         </Grid.ColumnDefinitions>
-
-
+        
         <!-- Customer List -->
         <Grid Grid.Column="{Binding NavigationSide,
             Converter={StaticResource NavigationSideToGridColumnConv }}"
